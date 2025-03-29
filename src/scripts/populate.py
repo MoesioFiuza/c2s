@@ -71,7 +71,7 @@ def populate_database(db: Session, num_records: int = 100):
 if __name__ == "__main__":
    
     print("INFO: Tentando criar tabelas com Base.metadata.create_all()...")
-   #Base.metadata.create_all(bind=engine)
+    Base.metadata.create_all(bind=engine)
     print("INFO: Base.metadata.create_all() executado.")
     db_session = SessionLocal()
     populate_database(db_session, num_records=150)
