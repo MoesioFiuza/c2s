@@ -88,21 +88,34 @@ Siga os passos na ordem abaixo. Os passos 3 e 4 precisam ser executados em termi
       ```bash
       python src/agent_app.py
       ```
-    - Interaja com o agente virtual para buscar veículos. Digite `sair` ou `encerrar` para finalizar a conversa.
+    - Interaja com o agente virtual para buscar veículos. Digite `sair` para finalizar a conversa.
 
 ## Estrutura do Projeto
 
 Contact2Sale/
 ├── alembic/ # Arquivos de migração do Alembic
+
 ├── src/ # Código fonte principal
+
 │ ├── core/ # Configurações centrais (config.py)
+
 │ ├── db/ # Configuração do banco (base.py)
+
 │ ├── models/ # Modelos SQLAlchemy (veiculo.py)
+
 │ ├── scripts/ # Scripts auxiliares (populate.py)
+
 │ ├── agent_app.py # Aplicação do agente de terminal (Cliente)
+
 │ └── server_app.py # Aplicação da API FastAPI (Servidor)
-├── .env.example # Arquivo de exemplo para variáveis de ambiente
+
+├── .env.examplo # Arquivo de exemplo para variáveis de ambiente
+
 ├── .gitignore # Arquivos ignorados pelo Git
+
+
 ├── alembic.ini # Configuração do Alembic
+
 ├── README.md # Este arquivo
+
 └── requirements.txt # Dependências Python
