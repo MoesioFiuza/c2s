@@ -19,7 +19,7 @@ Este projeto implementa uma solução para o desafio técnico da C2S, que envolv
 1.  **Clone o Repositório:**
 
     ```bash
-    git clone [https://github.com/MoesioFiuza/c2s.git]
+    git clone https://github.com/MoesioFiuza/c2s.git
     cd Contact2Sale
     ```
 
