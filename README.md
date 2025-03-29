@@ -63,8 +63,7 @@ Siga os passos abaixo **na ordem indicada**.
 
 ## Execução
 
-Execute os passos abaixo **com o ambiente virtual (C2S) ativo**. Os passos 3 e 4 precisam ser executados em terminais **separados**, porém no mesmo diretório. Abra um novo terminal e vá até a pasta do projeto
-e ativo o ambiente virtual novamente seguindo os passos já colocados acima.
+Execute os passos abaixo **com o ambiente virtual (C2S) ativo**. Os passos 3 e 4 precisam ser executados em terminais **separados**, porém no mesmo diretório. Em um terminal ficará a interação com o agente virtual e no outro terminal ficará a API. Ative o ambiente virtual em ambos terminais.
 
 1.  **Crie as Tabelas do Banco de Dados:**
     * Execute o Alembic para aplicar as migrações:
