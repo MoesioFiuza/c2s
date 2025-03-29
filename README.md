@@ -8,7 +8,8 @@ Este projeto implementa uma solução para o desafio técnico da C2S, que envolv
 * **Banco de Dados (SQLite + SQLAlchemy):** Armazena informações sobre veículos. O schema é gerenciado via Alembic.
 * **População de Dados:** Script para popular o banco com dados fictícios usando a biblioteca Faker.
 * **Agente de Terminal:** Uma aplicação de linha de comando que simula um agente virtual, coleta critérios de busca do usuário, consulta a API e exibe os resultados.
-* 
+
+  
 ## Pré-requisitos
 
 * Python 3.10 ou superior
