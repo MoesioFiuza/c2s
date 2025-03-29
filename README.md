@@ -56,29 +56,19 @@ Siga os passos abaixo **na ordem indicada**.
 
 6.  **Configure o Arquivo de Ambiente (`.env`):**
     * Este projeto usa um arquivo `.env` para configurar a URL do banco de dados. Um arquivo de exemplo (`.env.examplo`) é fornecido.
-    * **Renomeie** o arquivo `.env.examplo` para `.env`. Use o comando apropriado para seu sistema operacional:
-        * **Linux/macOS:**
-            ```bash
-            mv .env.examplo .env
-            ```
-        * **Windows (CMD):**
-            ```bash
-            ren .env.examplo .env
-            ```
-        * **Windows (PowerShell):**
-            ```bash
-            Rename-Item .env.examplo .env
-            ```
-    * O conteúdo padrão (`DATABASE_URL=sqlite:///./veiculos.db`) dentro do arquivo deve funcionar sem modificações para este desafio.
+    * **Renomeie** o arquivo `.env.examplo` para `.env`.
+       
+    * O conteúdo padrão (`DATABASE_URL=sqlite:///./veiculos.db`) dentro do arquivo funcionará sem modificações para este desafio.
 
 ## Execução
 
-Execute os passos abaixo **com o ambiente virtual (C2S) ativo**. Os passos 3 e 4 precisam ser executados em terminais **separados**.
+Execute os passos abaixo **com o ambiente virtual (C2S) ativo**. Os passos 3 e 4 precisam ser executados em terminais **separados**, porém no mesmo diretório. Abra um novo terminal e vá até a pasta do projeto
+e ativo o ambiente virtual novamente seguindo os passos já colocados acima.
 
 1.  **Crie as Tabelas do Banco de Dados:**
     * Execute o Alembic para aplicar as migrações:
         ```bash
-        # Use este comando (funciona em Linux, macOS e Windows)
+       
         python -m alembic upgrade head
         ```
     * *(Este comando criará o arquivo `veiculos.db` e as tabelas `veiculos` e `alembic_version`).*
