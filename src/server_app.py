@@ -44,7 +44,7 @@ def search_veiculos(
     db: Session = Depends(get_db)
 ):
     
-    print(f"INFO: Recebidos critérios de busca: {criteria.dict(exclude_none=True)}") # exclude_none para log mais limpo
+    print(f"INFO: Recebidos critérios de busca: {criteria.dict(exclude_none=True)}")
     query = db.query(Veiculo)
 
     if criteria.marca:
