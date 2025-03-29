@@ -26,7 +26,7 @@ Siga os passos abaixo **na ordem indicada**.
 
 2.  **Entre na Pasta do Projeto:**
     ```bash
-    cd Contact2Sale
+    cd c2s
     ```
 
 3.  **(Opcional) Abra no Editor:**
