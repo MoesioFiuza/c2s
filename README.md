@@ -21,7 +21,7 @@ Siga os passos abaixo **na ordem indicada**.
 1.  **Clone o Repositório:**
     Abra seu terminal ou prompt de comando.
     ```bash
-    git clone [https://github.com/MoesioFiuza/Contact2Sale.git](https://github.com/MoesioFiuza/Contact2Sale.git)
+    git clone https://github.com/MoesioFiuza/Contact2Sale.git
     ```
 
 2.  **Entre na Pasta do Projeto:**
@@ -55,19 +55,19 @@ Siga os passos abaixo **na ordem indicada**.
     ```
 
 6.  **Configure o Arquivo de Ambiente (`.env`):**
-    * Este projeto usa um arquivo `.env` para configurar a URL do banco de dados. Um arquivo de exemplo (`.env.example`) é fornecido.
-    * **Renomeie** o arquivo `.env.example` para `.env`. Use o comando apropriado para seu sistema operacional:
+    * Este projeto usa um arquivo `.env` para configurar a URL do banco de dados. Um arquivo de exemplo (`.env.examplo`) é fornecido.
+    * **Renomeie** o arquivo `.env.examplo` para `.env`. Use o comando apropriado para seu sistema operacional:
         * **Linux/macOS:**
             ```bash
-            mv .env.example .env
+            mv .env.examplo .env
             ```
         * **Windows (CMD):**
             ```bash
-            ren .env.example .env
+            ren .env.examplo .env
             ```
         * **Windows (PowerShell):**
             ```bash
-            Rename-Item .env.example .env
+            Rename-Item .env.examplo .env
             ```
     * O conteúdo padrão (`DATABASE_URL=sqlite:///./veiculos.db`) dentro do arquivo deve funcionar sem modificações para este desafio.
 
@@ -88,7 +88,6 @@ Execute os passos abaixo **com o ambiente virtual (C2S) ativo**. Os passos 3 e 4
         ```bash
         python src/scripts/populate.py
         ```
-    * *(**Importante:** Antes de executar, confirme que a linha `Base.metadata.create_all(bind=engine)` foi removida ou comentada do final do arquivo `src/scripts/populate.py`).*
 
 3.  **Execute o Servidor da API:**
     * Abra um **primeiro terminal** (com `(C2S)` ativo) e execute:
