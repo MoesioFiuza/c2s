@@ -74,7 +74,6 @@ Siga os passos na ordem abaixo. Os passos 3 e 4 precisam ser executados em termi
       ```bash
       python src/scripts/populate.py
       ```
-    - _(**Importante:** Certifique-se de que a linha `Base.metadata.create_all(bind=engine)` foi removida ou comentada do final do arquivo `src/scripts/populate.py` antes de executar este passo, pois usamos `alembic upgrade head` para gerenciar o schema)._
 
 3.  **Execute o Servidor da API:**
 
