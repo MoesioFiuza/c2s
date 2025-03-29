@@ -93,6 +93,7 @@ Siga os passos na ordem abaixo. Os passos 3 e 4 precisam ser executados em termi
 ## Estrutura do Projeto
 
 Contact2Sale/
+
 ├── alembic/ # Arquivos de migração do Alembic
 
 ├── src/ # Código fonte principal
