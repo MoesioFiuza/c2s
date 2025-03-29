@@ -96,7 +96,6 @@ e ativo o ambiente virtual novamente seguindo os passos já colocados acima.
 
 ## Estrutura do Projeto
 
-## Estrutura do Projeto
 
 Contact2Sale/
 
