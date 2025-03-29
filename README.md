@@ -48,12 +48,12 @@ Este projeto implementa uma solução para o desafio técnico da C2S, que envolv
 ## Configuração
 
 1.  **Arquivo de Ambiente (`.env`):**
-    - Este projeto usa um arquivo `.env` para configurar a URL do banco de dados. Um arquivo de exemplo (`.env.example`) é fornecido.
+    - Este projeto usa um arquivo `.env` para configurar a URL do banco de dados. Um arquivo de exemplo (`.env.examplo`) é fornecido.
     - Copie o exemplo para criar seu arquivo `.env`:
       ```bash
-      cp .env.example .env
+      cp .env.examplo .env
       ```
-    - O valor padrão `DATABASE_URL=sqlite:///./veiculos.db` no `.env.example` criará um banco de dados SQLite chamado `veiculos.db` na raiz do projeto e deve funcionar sem modificações para este desafio.
+    - O valor padrão `DATABASE_URL=sqlite:///./veiculos.db` no `.env.examplo` criará um banco de dados SQLite chamado `veiculos.db` na raiz do projeto e deve funcionar sem modificações para este desafio.
 
 ## Execução
 
