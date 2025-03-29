@@ -30,8 +30,8 @@ Siga os passos abaixo **na ordem indicada**.
     cd c2s
     ```
 
-3.  **(Opcional) Abra no Editor:**
-    Neste ponto, abra a pasta `Contact2Sale` no seu editor de código preferido (VS Code, PyCharm, etc.) para visualizar a estrutura dos arquivos antes de continuar com os comandos no terminal.
+3.  **Abra no Editor:**
+    Neste ponto, abra a pasta `c2s` no seu editor de código preferido (VS Code, PyCharm, etc.) para visualizar a estrutura dos arquivos antes de continuar com os comandos no terminal.
 
 4.  **Crie e Ative o Ambiente Virtual:**
     * No terminal, ainda dentro da pasta `Contact2Sale`, crie o ambiente (recomendado usar `C2S`):
