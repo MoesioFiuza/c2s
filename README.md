@@ -21,7 +21,7 @@ Siga os passos abaixo **na ordem indicada**.
 1.  **Clone o Repositório:**
     Abra seu terminal ou prompt de comando.
     ```bash
-    git clone https://github.com/MoesioFiuza/Contact2Sale.git
+    git clone https://github.com/MoesioFiuza/c2s.git
     ```
 
 2.  **Entre na Pasta do Projeto:**
