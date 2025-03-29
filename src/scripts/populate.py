@@ -18,7 +18,7 @@ marcas_modelos = {
     'Volkswagen': ['Gol', 'Polo', 'Virtus', 'T-Cross', 'Nivus'],
     'Fiat': ['Mobi', 'Argo', 'Cronos', 'Toro', 'Strada'],
     'Chevrolet': ['Onix', 'Tracker', 'S10', 'Cruze', 'Onix Plus'],
-    'Ford': ['Ranger', 'Territory', 'Mustang'], # Menos opções atuais no BR
+    'Ford': ['Ranger', 'Territory', 'Mustang'],
     'Hyundai': ['HB20', 'Creta', 'Tucson'],
     'Renault': ['Kwid', 'Duster', 'Sandero', 'Captur']
 }
@@ -39,7 +39,6 @@ def populate_database(db: Session, num_records: int = 100):
             max_km = max(1000, (2025 - ano_modelo) * 20000)
             min_km = max(0, (2025 - ano_modelo - 2) * 5000)
             quilometragem = fake.random_int(min=min_km, max=max_km)
-
             numero_portas = random.choice([2, 4])
             transmissao = random.choice(transmissoes)
             preco_base = max(15000, (ano_modelo - 2000) * 3000)
