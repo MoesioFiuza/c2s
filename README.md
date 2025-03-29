@@ -34,7 +34,7 @@ Siga os passos abaixo **na ordem indicada**.
     Neste ponto, abra a pasta `c2s` no seu editor de código preferido (VS Code, PyCharm, etc.) para visualizar a estrutura dos arquivos antes de continuar com os comandos no terminal.
 
 4.  **Crie e Ative o Ambiente Virtual:**
-    * No terminal, ainda dentro da pasta `Contact2Sale`, crie o ambiente (recomendado usar `C2S`):
+    * No terminal, ainda dentro da pasta `c2s`, crie o ambiente (recomendado usar `C2S`):
         ```bash
         python -m venv C2S
         ```
@@ -97,7 +97,7 @@ e ativo o ambiente virtual novamente seguindo os passos já colocados acima.
 ## Estrutura do Projeto
 
 
-Contact2Sale/
+c2s/
 
 ├── alembic/ # Arquivos de migração do Alembic
 
