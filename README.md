@@ -66,7 +66,6 @@ Siga os passos na ordem abaixo. Os passos 3 e 4 precisam ser executados em termi
       ```bash
       alembic upgrade head
       ```
-    - _(Este comando criará o arquivo `veiculos.db` se ele não existir e garantirá que as tabelas `veiculos` e `alembic_version` estejam criadas/atualizadas)._
 
 2.  **Popule o Banco de Dados com Dados Fictícios:**
 
